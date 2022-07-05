@@ -10,7 +10,7 @@ namespace IntroductiontoXamarin
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Views.MainPage());
         }
 
         protected override void OnStart ()
@@ -18,7 +18,7 @@ namespace IntroductiontoXamarin
         }
 
         protected override void OnSleep ()
-        {
+        { 
         }
 
         protected override void OnResume ()

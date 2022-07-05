@@ -133,4 +133,8 @@
       <Name>IntroductiontoXamarin</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\layout\" />
+  </ItemGroup>
 </Project>
