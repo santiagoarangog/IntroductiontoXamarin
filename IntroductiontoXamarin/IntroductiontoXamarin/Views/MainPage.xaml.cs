@@ -20,7 +20,7 @@ namespace IntroductiontoXamarin.Views
 
         public void btnHome_Clicked(System.Object sender,System.EventArgs e)
         {
-            DisplayAlert("Titulo de la alerta","Descripcion de la alerta","Ok");
+            Navigation.PushAsync(new FirstPage());
         }
 
         public void btnCalcular_Clicked(Object sender, EventArgs e)

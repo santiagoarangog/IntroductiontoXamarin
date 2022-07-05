@@ -7,7 +7,8 @@
 
 <ContentPage.ToolbarItems>
     <ToolbarItem Text="Services"
-                 Order="Primary"/>
+                 Order="Primary"
+                 Clicked="btnHome_Clicked"/>
 </ContentPage.ToolbarItems>
 
 <StackLayout BackgroundColor="#252526"
